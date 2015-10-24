@@ -43,7 +43,7 @@ TARGET_BOARD_INFO_FILE := device/htc/flounder/board-info.txt
 
 #Kernel Build
 TARGET_BOOTLOADER_BOARD_NAME := flounder
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/sabermod-aarch64-linux-gnu-5.2/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-5.2/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-
 TARGET_KERNEL_CONFIG := ninja_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/flounder
