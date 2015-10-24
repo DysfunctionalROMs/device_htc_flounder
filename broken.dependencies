@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "gchild320/flounder",
+    "target_path": "kernel/htc/flounder",
+    "branch":      "m"
+  },
+  {
+   "remote": "github",
+   "repository": "TheMuppets/proprietary_vendor_htc",
+   "target_path": "vendor/htc",
+   "branch": "cm-13.0"
+  }
+]
