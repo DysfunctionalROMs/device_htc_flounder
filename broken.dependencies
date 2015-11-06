@@ -9,11 +9,5 @@
    "repository": "TheMuppets/proprietary_vendor_htc",
    "target_path": "vendor/htc",
    "branch": "cm-13.0"
-  },
-  {
-    "remote": "BrokenTC",
-    "repository": "aarch64-linux-gnu-5.2",
-    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-5.2",
-    "branch": "master"
   }
 ]
