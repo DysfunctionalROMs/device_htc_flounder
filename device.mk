@@ -214,6 +214,12 @@ PRODUCT_PROPERTY_OVERRIDES := \
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
+# set default USB configuration
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0
+
 # for off charging mode
 PRODUCT_PACKAGES += \
     charger \
