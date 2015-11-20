@@ -12,6 +12,8 @@ $(call inherit-product, vendor/broken/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
 $(call inherit-product-if-exists, vendor/htc/flounder/device-vendor.mk)
 
+BOARD_NEEDS_VENDORIMAGE_SYMLINK := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := flounder
 PRODUCT_NAME := broken_flounder
