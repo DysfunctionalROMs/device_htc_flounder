@@ -1,0 +1,13 @@
+[
+  {
+    "repository": "dfuse06/android_kernel_htc_flounder",
+    "target_path": "kernel/htc/flounder",
+    "branch":      "m6.0"
+  },
+  {
+   "remote": "github",
+   "repository": "TheMuppets/proprietary_vendor_htc",
+   "target_path": "vendor/htc",
+   "branch": "cm-13.0"
+  }
+]
