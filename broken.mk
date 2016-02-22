@@ -29,6 +29,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="volantis-user 6.0.1 MMB29R 2482564 release-keys" \
     BUILD_ID=MMB29R
 
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Dustin Winings (D-FUSE)" 
+
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := broken_flounder
 PRODUCT_BRAND := google
