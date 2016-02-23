@@ -4,6 +4,12 @@
     "target_path": "kernel/htc/flounder",
     "branch":      "m6.0"
   },
+   {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_packages_apps_Snap",
+    "target_path": "packages/motorola/apps",
+    "branch":      "cm-13.0"
+  },
   {
    "remote": "github",
    "repository": "TheMuppets/proprietary_vendor_htc",
