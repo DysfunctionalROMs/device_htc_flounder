@@ -1,8 +1,8 @@
 [
   {
-    "repository": "dfuse06/android_kernel_htc_flounder",
+    "repository": "gchild320/flounder",
     "target_path": "kernel/htc/flounder",
-    "branch":      "m6.0"
+    "branch":      "m"
   },
    {
     "remote":      "github",
