@@ -1,14 +1,14 @@
 [
   {
-    "repository": "gchild320/flounder",
+    "repository": "dfuse06/android_kernel_htc_flounder",
     "target_path": "kernel/htc/flounder",
-    "branch":      "m"
+    "branch":      "m6.0.1"
   },
    {
     "remote":      "github",
-    "repository":  "CyanogenMod/android_packages_apps_Snap",
-    "target_path": "packages/apps/Snap",
-    "branch":      "cm-13.0"
+    "repository":  "BrokenROM/packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "branch":      "m6.0.1"
   },
   {
    "remote": "github",
